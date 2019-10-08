@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title></title>
+  </head>
+
+  <body>
+    <h2>Travel reservation form</h2>
+    <h3>*denotes mandatory</h3>
+    <form action="">
+      <label for="fullname">
+        Full name*: <br />
+        <input
+          type="text"
+          name="fullname"
+          id=""
+          placeholder="FirstName_LastName"
+          required
+        /> </label
+      ><br />
+
+      <label for="email">
+        Email address*: <br />
+        <input
+          type="email"
+          name=""
+          id=""
+          placeholder="Email_address"
+          required
+        /> </label
+      ><br />
+
+      <label for="package">
+        Select Tour Package*: <br />
+        <select name="package" id="" required>
+          <option value="Goa">Goa</option>
+          <option value="Xda">Xda</option>
+          <option value="Pjdh">Pjdh</option>
+        </select> </label
+      ><br />
+
+      <label for="date">
+        Arrival date*: <br />
+        <input type="date" name="date" placeholder="m/d/y" required /> </label
+      ><br />
+
+      <label for="number">
+        Number of persons*: <br />
+        <input
+          type="number"
+          name="number"
+          placeholder="UNKNOWN_TYPE"
+          required
+        /> </label
+      ><br />
+
+      <label for="avail">
+        What would you want to avail?* <br />
+        <input type="checkbox" name="avail" value="boarding" />Boarding <br />
+        <input type="checkbox" name="avail" value="fooding" />Fooding <br />
+        <input type="checkbox" name="avail" value="sightsee" />Sight seeing </label
+      ><br />
+
+      <label for="coupon">
+        Discount Coupon code: <br />
+        <input type="text" name="coupon" placeholder="UNKNOWN_TYPE" /> </label
+      ><br />
+
+      <label for="tc">
+        Terms and conditions* <br />
+        <input type="radio" name="tc" value="agree" />I agree
+        <input type="radio" name="tc" value="disagree" />I disagree </label
+      ><br />
+
+      <label for="submit">
+        <input type="submit" name="submit" value="Complete reservation" />
+      </label>
+    </form>
+  </body>
+</html>
