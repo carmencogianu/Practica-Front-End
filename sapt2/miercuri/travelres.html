@@ -1,34 +1,45 @@
 <html>
   <head>
-    <title></title>
+    <title>Travel reservation form</title>
+    <link rel="stylesheet" href="travelres.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <h2>Travel reservation form</h2>
-    <h3>*denotes mandatory</h3>
+    <header>
+        <h2>Travel reservation form</h2>
+        <h3>*denotes mandatory</h3>
+    </header>
+    
     <form action="">
-      <label for="fullname">
-        Full name*: <br />
-        <input
-          type="text"
-          name="fullname"
-          id=""
-          placeholder="FirstName_LastName"
-          required
-        /> </label
-      ><br />
-
-      <label for="email">
-        Email address*: <br />
-        <input
-          type="email"
-          name=""
-          id=""
-          placeholder="Email_address"
-          required
-        /> </label
-      ><br />
-
+      <div class="form">
+      <div class="persinfo">
+        <h3>Personal informations</h3>
+          <label for="fullname">
+              Full name*: <br />
+              <input
+                type="text"
+                name="fullname"
+                id=""
+                placeholder="FirstName_LastName"
+                required
+              /> </label
+            ><br />
+      
+            <label for="email">
+              Email address*: <br />
+              <input
+                type="email"
+                name=""
+                id=""
+                placeholder="Email_address"
+                required
+              /> </label
+            ><br />
+            </div>
+      
+      <div class="travdet">
+      <h3>Travelling details</h3>
       <label for="package">
         Select Tour Package*: <br />
         <select name="package" id="" required>
@@ -40,8 +51,7 @@
 
       <label for="date">
         Arrival date*: <br />
-        <input type="date" name="date" placeholder="m/d/y" required /> </label
-      ><br />
+        <input type="date" name="date" required /> </label><br />
 
       <label for="number">
         Number of persons*: <br />
@@ -49,9 +59,7 @@
           type="number"
           name="number"
           placeholder="UNKNOWN_TYPE"
-          required
-        /> </label
-      ><br />
+          required/> </label><br />
 
       <label for="avail">
         What would you want to avail?* <br />
@@ -64,16 +72,21 @@
         Discount Coupon code: <br />
         <input type="text" name="coupon" placeholder="UNKNOWN_TYPE" /> </label
       ><br />
+      </div>
 
+    <div class="tc">
+      <h3>Terms and conditions</h3>
       <label for="tc">
         Terms and conditions* <br />
         <input type="radio" name="tc" value="agree" />I agree
         <input type="radio" name="tc" value="disagree" />I disagree </label
       ><br />
+      </div>
 
       <label for="submit">
         <input type="submit" name="submit" value="Complete reservation" />
       </label>
+    </div>
     </form>
   </body>
 </html>
