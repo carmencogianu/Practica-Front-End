@@ -1,13 +1,18 @@
 <html></html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="feedbackform.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="feedb">
+  <header >
   <h2>My feedback form</h2>
+  </header>
+  <form action="">
   <ul>
+    <div class="personal-info">
+    <p>Personal information</p>
     <li>Name:
       <input type="text" name="" id="">
     </li>
@@ -16,7 +21,9 @@
     </li>
     <li>Password:
       <input type="password">
-    </li>
+    </li></div>
+    <div class="service-rating">
+    <p>Service rating</p>
     <li>Please check all the emotions that apply to you:
       <ul>
         <li>Angry
@@ -52,12 +59,12 @@
           </li>
       </ul>
     </li>
-    <li>Further comments:
+    <li>Further comments: <br>
       <textarea name="" id="" cols="30" rows="2"></textarea>
     </li>
     <!-- partea asta inca imi da batai de cap -->
-    <li>Bio photo:
-      <input type="file" value="Choose">
+    <li>Bio photo: <br>
+      <input type="file" >
     </li>
     <li>Location visited:
       <select name="location" >
@@ -66,7 +73,12 @@
         <option value="loc3">Locatia3</option>
       </select>
     </li>
+  </div>
   </ul>
+  <div class="footer">
   <li><input type="submit" value="Submit"></li>
+</div>
+</form>
+</div>
 </body>
 </html>
