@@ -1,0 +1,19 @@
+$backgroundColor: black;
+$borderColor: #3399ff;
+$borderColor2: fuchsia;
+$divWidth: 300px;
+$divHeight: 300px;
+
+div {
+  width: $divWidth;
+  height: $divHeight;
+  background-color: $backgroundColor;
+  border-color: $borderColor;
+}
+
+div:nth-child(2) {
+  width: $divWidth;
+  height: $divHeight;
+  background-color: $backgroundColor;
+  border-color: 1px solid $borderColor2;
+}
