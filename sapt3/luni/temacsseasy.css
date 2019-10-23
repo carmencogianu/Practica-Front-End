@@ -1,0 +1,23 @@
+li a {
+  color: red;
+}
+
+div {
+  border: 1px solid black;
+}
+#diffcolor {
+  color: #c55;
+}
+.same {
+  color: green;
+}
+h1 {
+  font-family: 'Mansalva', cursive;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
