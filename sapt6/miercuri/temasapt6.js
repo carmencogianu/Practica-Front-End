@@ -42,31 +42,31 @@ var grade = function (x) {
     // Am luat fiecare caz in parte, mai precis l-am comparat pe x cu fiecare valoare si in functie de caz a afisat mesajul corespunzator.
     // In cazul in care datele introduse nu se incadreaza in nici un caz se afiseaza mesajul default.
     switch (x) {
-        case 1 : return "E";
+        case 1 : return "Calificativul corespunzator punctajului " + 1 + " este E";
         break;
-        case 2 : return "E";
+        case 2 : return "Calificativul corespunzator punctajului " + 2 + " este E";
         break;
-        case 3 : return "E";
+        case 3 : return "Calificativul corespunzator punctajului " + 3 + " este E";
         break;
-        case 4 : return "D";
+        case 4 : return "Calificativul corespunzator punctajului " + 4 + " este D";
         break;
-        case 5 : return "D";
+        case 5 : return "Calificativul corespunzator punctajului " + 5 + " este D";
         break;
-        case 6 : return "D";
+        case 6 : return "Calificativul corespunzator punctajului " + 6 + " este D";
         break;
-        case 7 : return "B";
+        case 7 : return "Calificativul corespunzator punctajului " + 7 + " este B";
         break;
-        case 8 : return "B";
+        case 8 : return "Calificativul corespunzator punctajului " + 8 + " este B";
         break;
-        case 9 : return "A";
+        case 9 : return "Calificativul corespunzator punctajului " + 9 + " este A";
         break;
-        case 10 : return "A+";
+        case 10 : return "Calificativul corespunzator punctajului " + 10 + " este A+";
         break;
         default :
             return "Not a grade!";
     }
 }
-console.log(grade(7));
+console.log(grade(1));
 // 3. Scrieti o functie care accepta ca argument numele marcii unei masini si returneaza un text de forma: "Marca [marca] se produce in [tara]". Trebuie sa aveti macar 6 cazuri. In cazul in care functia nu recunoaste marca, va returna "Marca este necunoscuta. " Scrieti codul in 3 variante diferite. In declararea functiei trebuie sa se regaseasca o functie anonima. Una dintre implementari trebuie sa fie bazata pe Object Literals ( read:  https://ultimatecourses.com/blog/deprecating-the-switch-statement-for-object-literals )
 
 // 4. Scrieti o functie de tip IIFE care:
@@ -86,8 +86,7 @@ console.log(grade(7));
  (function sortSomething (cars) {   
      cars.sort(function (a, b) {
          return a.salary - b.salary;
-     }); 
-    console.log(cars)
-     
+     });   
  })(cars);
+ console.log(cars);
 // Veti crea un fisier javascript separat pe care il veti include intr-un fisier html. Verificarea se va face prin deschiderea paginii html in browser.
