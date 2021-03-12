@@ -1,0 +1,63 @@
+/* a */
+li:nth-child(even) {
+  color: green;
+}
+/* b */
+li:nth-child(3) {
+  background-color: blue;
+}
+/* c */
+li:first-child {
+  border-top: 1px solid green;
+}
+/* d */
+li:last-child {
+  border-bottom: 5px dotted blue;
+}
+/* e */
+li:nth-child(3) a[href] {
+  color: red;
+}
+li:nth-child(5) a[href] {
+  color: red;
+}
+/* f */
+li:nth-child(5) a:hover {
+  color: gray;
+}
+/* g */
+li:nth-child(2) {
+  list-style-type: none;
+}
+li:nth-child(5) {
+  list-style-type: none;
+}
+/* h */
+input[type='text']:focus {
+  background-color: gray;
+}
+/* i */
+[placeholder='first name'] {
+  color: green;
+}
+/* j */
+[placeholder='last name'] {
+  color: blue;
+}
+/* k am */
+input[type='password'] {
+  color: transparent;
+}
+/* l */
+li:nth-child(odd) {
+  color: green;
+}
+/* m */
+input[type='email']::selection {
+  background-color: yellow;
+  color: pink;
+}
+/* n */
+input[type='submit']:hover {
+  color: red;
+}

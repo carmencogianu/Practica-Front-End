@@ -1,0 +1,29 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.container {
+  border: 3px solid rgb(38, 202, 189);
+  border-bottom: none;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+nav {
+  border: 3px solid fuchsia;
+  width: 145px;
+  position: absolute;
+}
+
+.foo {
+  margin-left: 150px;
+}
+section {
+  border: 3px solid orange;
+  padding: 5px;
+}
+footer {
+  text-align: center;
+  border: 3px solid green;
+  border-bottom: none;
+}

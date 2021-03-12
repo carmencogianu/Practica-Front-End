@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 150px;
+  border: 3px solid fuchsia;
+  width: 150px;
+  float: left;
+  margin: 0 auto;
+}
+
+/* .foo {
+  width: 300px;
+  float: left;
+  height: 500px;
+}
+
+section {
+  border: 3px solid orange;
+}
+/* footer {
+  text-align: center;
+  border: 3px solid green;
+} */
+/* .container {
+  border: 3px solid rgb(38, 202, 189);
+  width: 900px;
+  margin: 0 auto;
+} */ */

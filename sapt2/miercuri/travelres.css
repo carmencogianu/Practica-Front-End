@@ -1,0 +1,30 @@
+body {
+    background-image: url(pic.jpg);
+    text-align: center;
+}
+
+.form {
+    display: inline-block;
+    width:220px;
+    text-align: left;
+    color: rgb(44, 39, 39); 
+}
+
+header {
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 300;
+    display: inline-block;
+    justify-content: center;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+select, input {
+    border-radius: 40px;
+    text-align: center;
+    background-color: rgb(229, 181, 149, 50%);
+    outline: none;
+}

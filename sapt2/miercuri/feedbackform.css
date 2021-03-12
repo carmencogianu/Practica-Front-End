@@ -1,0 +1,88 @@
+
+body {
+    background-image: url('city.jpg');
+    text-align: center;
+   
+}
+
+.feedb {
+    display: inline-block;
+    text-align: center;
+    /* padding: 15px; */
+    /* background-color: rgb(247, 241, 241, 0.3); */
+    width: 400px;
+    height: auto;
+    font-family: 'Arvo', cursive;
+}
+ul,li{
+    padding-left: 0;
+    list-style-type: none;
+}
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+input,textarea,select {
+    outline: none;
+    margin: 5px;
+}
+input[type='text'] {
+    background-color: transparent;
+    border:0;
+    border-bottom: 1px solid white;
+    color:white;
+}
+input[type='email'] {
+    background-color: transparent;
+    border:0;
+    border-bottom: 1px solid white;
+    color:white;
+}
+input[type='password'] {
+    background-color: transparent;
+    border:0;
+    border-bottom: 1px solid white;
+    color:white;
+}
+input[type='submit'] {
+    border: none;
+    border-radius: 40px;
+    padding: 5px 50px;
+    background-color: rgb(0, 195, 255);
+
+}
+header {
+    background-color: rgba(45, 58, 59, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+header:hover {
+    background-color: rgba(45, 58, 59, 0.9);
+    transition: ease all 0.3s;
+}
+.personal-info {
+    background-color: rgba(45, 58, 59, 0.5);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color:white;
+}
+.personal-info:hover {
+    background-color: rgba(45, 58, 59, 0.9);
+    transition: ease all 0.3s;
+}
+.service-rating {
+    background-color: rgba(45, 58, 59, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    color:white
+}
+.service-rating:hover {
+    background-color: rgba(45, 58, 59, 0.9);
+    transition: ease all 0.3s;
+}
+textarea {
+    background-color: transparent;
+    color: white;
+}
